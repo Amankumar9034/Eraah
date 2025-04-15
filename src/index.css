@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active {
+    color: #47df9d;
+    scale: 1.2;
+}
+a.active hr{
+    display: block;
+}
+  
+::-webkit-scrollbar{
+    display: none;
+}
